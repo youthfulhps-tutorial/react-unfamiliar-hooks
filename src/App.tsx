@@ -3,6 +3,7 @@ import Counter from "./hooks/useDebugValue";
 import AlbumSearch from "./hooks/useDeferredValue";
 import Navigator from "./hooks/useTransition";
 import OnlineStatus from "./hooks/useSyncExternalStore";
+import Input from "./hooks/useId";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <AlbumSearch />
       <Navigator />
       <OnlineStatus />
+      <Input />
     </div>
   );
 }
